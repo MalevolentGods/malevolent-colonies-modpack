@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "vegan_craft:oil"
+        },
+        {
+            "tag": "vegan_craft:oil"
+        },
+        {
+            "tag": "vegan_craft:oil"
+        },
+        {
+            "tag": "vegan_craft:oil"
+        },
+        {
+            "tag": "vegan_craft:oil"
+        },
+        {
+            "tag": "vegan_craft:oil"
+        },
+        {
+            "tag": "vegan_craft:oil"
+        },
+        {
+            "tag": "vegan_craft:oil"
+        },
+        {
+            "tag": "vegan_craft:oil"
+        }
+    ],
+    "result": {
+        "id": "minecraft:egg",
+        "count": 3
+    }
+}

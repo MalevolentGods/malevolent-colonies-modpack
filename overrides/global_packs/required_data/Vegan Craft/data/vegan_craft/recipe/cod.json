@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:brown_mushroom"
+        },
+        {
+            "item": "minecraft:brown_mushroom"
+        },
+        {
+            "item": "minecraft:kelp"
+        },
+        {
+            "item": "minecraft:kelp"
+        },
+        {
+            "item": "minecraft:kelp"
+        },
+        {
+            "item": "minecraft:beetroot"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:brown_mushroom"
+        },
+        {
+            "item": "minecraft:egg"
+        }
+    ],
+    "result": {
+        "id": "minecraft:cod",
+        "count": 1
+    }
+}
