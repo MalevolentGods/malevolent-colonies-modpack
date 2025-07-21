@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Malevolent Colonies 1.21",
-  "version": "1.1",
+  "version": "1.2",
   "author": "",
   "files": [
     {
@@ -676,7 +676,7 @@
     },
     {
       "projectID": 1308168,
-      "fileID": 6792673,
+      "fileID": 6796969,
       "required": true
     }
   ],
