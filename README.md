@@ -18,3 +18,22 @@ The upstream source is `TechColonies-1.12.zip`, CurseForge project `365535`, fil
 The 1.3 sync includes upstream gameplay settings for raids, weather, Overgrowth, food milestones, and corpse ownership. Manifest parity, upstream override bytes, preserved local files, and the export archive were checked. Minecraft launch and gameplay have not been validated for this combined pack.
 
 Upstream includes an empty `overrides/global_packs/required_data/kpack/data/oritech/recipe/crafting/prompick.json` file. It is preserved exactly; its recipe-loading behavior remains unverified in-game. All other upstream JSON and TOML files passed syntax checks.
+
+## GitHub releases
+
+Pushing a version tag such as `v1.3` runs `.github/workflows/release.yml`. The workflow validates the manifest, builds `Malevolent-Colonies-v1.3.zip`, and publishes it on this repository's GitHub Releases page with generated release notes. The ZIP contains `manifest.json`, `modlist.html`, and `overrides/` at its root. It uses the automatic GitHub Actions token; no additional secret is required.
+
+Before tagging, update `manifest.json`'s version and the documentation, commit the changes (including the workflow), and test packaging locally:
+
+```sh
+python3 scripts/package_modpack.py v1.3 /tmp/malevolent-colonies-release
+```
+
+The tag without its leading `v` must exactly match the manifest version. After committing the release changes, publish the matching tag:
+
+```sh
+git tag -a v1.3 -m "Malevolent Colonies 1.3"
+git push origin v1.3
+```
+
+Tags containing a prerelease suffix, such as `v1.4-rc.1`, create GitHub prereleases. Rerunning a successful workflow replaces the ZIP on the existing release without rewriting its notes. Packaging validates the export structure and manifest; it does not launch Minecraft or verify CurseForge download availability.
