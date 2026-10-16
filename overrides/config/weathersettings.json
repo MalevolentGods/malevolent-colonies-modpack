@@ -15,14 +15,14 @@
         "rain": {
           "command": "weather rain",
           "weight": 100,
-          "duration": 200,
-          "clearDuration": 9600
+          "duration": 300,
+          "clearDuration": 6200
         },
         "thunder": {
           "command": "weather thunder",
           "weight": 20,
-          "duration": 150,
-          "clearDuration": 13600
+          "duration": 200,
+          "clearDuration": 9000
         }
       }
     ]
