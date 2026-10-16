@@ -16,9 +16,9 @@ pack_edit_mode = true
 		#Modpack Configs
 		[modules.server_creator_banner.pack]
 			#The title to display at the top of the entry.
-			title = "Want to play Minecolonies with Friends?"
+			title = "Want to play TechColonies with Friends?"
 			#The description to display below the title.
-			description = "Click me to get your own server!"
+			description = "Click to get your own server!"
 			#Set this to true to use specific language translation keys.
 			#This requires a custom mod that adds resource files, such as OpenLoader.
 			#Use 'server_entry.title' key for the Title;

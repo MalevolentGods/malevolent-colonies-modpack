@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "id": "oritech:enderic_lens"
+    },
+    {
+      "count": 5,
+      "id": "oritech:machine_plating_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "result": {
+    "id": "oritech:exo_helmet"
+  },
+  "show-tooltip": true
+}

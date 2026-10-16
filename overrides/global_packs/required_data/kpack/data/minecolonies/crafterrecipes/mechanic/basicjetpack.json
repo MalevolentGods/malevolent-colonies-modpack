@@ -1,0 +1,28 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "id": "oritech:advanced_battery"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:gunpowder"
+    }
+    ,
+    {
+      "id": "minecraft:leather"
+    }
+    ,
+    {
+      "count": 3,
+      "id": "oritech:steel_ingot"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "result": {
+    "id": "oritech:jetpack"
+  },
+  "show-tooltip": true
+}

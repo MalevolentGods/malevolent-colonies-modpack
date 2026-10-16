@@ -39,17 +39,17 @@
 	#The amount of times at a global rate this is ticked. 0 to turn it off. [Default: 15, min: 0, max: 1000]
 	# Default: 15
 	# Range: 0 ~ 1000
-	underwaterplants = 50
+	underwaterplants = 15
 	#Lava Drying handling
 	#The amount of times at a global rate this is ticked. 0 to turn it off. [Default: 17, min: 0, max: 1000]
 	# Default: 17
 	# Range: 0 ~ 1000
-	drylava = 0
+	drylava = 500
 	#Mossy Blocks handling
 	#The amount of times at a global rate this is ticked. 0 to turn it off. [Default: 14, min: 0, max: 1000]
 	# Default: 14
 	# Range: 0 ~ 1000
-	mossyblocks = 500
+	mossyblocks = 0
 	#Mud Dry handling
 	#The amount of times at a global rate this is ticked. 0 to turn it off. [Default: 7, min: 0, max: 1000]
 	# Default: 7
@@ -69,12 +69,12 @@
 	#The amount of times at a global rate this is ticked. 0 to turn it off. [Default: 13, min: 0, max: 1000]
 	# Default: 13
 	# Range: 0 ~ 1000
-	anvilsand = 13
+	anvilsand = 0
 	#Spiderweb handling
 	#The amount of times at a global rate this is ticked. 0 to turn it off. [Default: 15, min: 0, max: 1000]
 	# Default: 15
 	# Range: 0 ~ 1000
-	spiderwebs = 1000
+	spiderwebs = 900
 	#Grasspath decay handling
 	#The amount of times at a global rate this is ticked. 0 to turn it off. [Default: 29, min: 0, max: 1000]
 	# Default: 29

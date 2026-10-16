@@ -28,11 +28,11 @@
     "dimensionBlackList": []
   },
   "respawnableStructures": {
-    "desc:": "List of structure IDs that should respawn always respawn, no matter if a player build sth inside, has a portal there etc.: e.g. minecraft:mansion",
+    "desc:": "List of structure IDs(or tags of structures) that should respawn always respawn, no matter if a player build sth inside, has a portal there etc.: e.g. minecraft:mansion",
     "respawnableStructures": []
   },
   "blacklistedStructures": {
-    "desc:": "List of blacklisted structures, those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
+    "desc:": "List of blacklisted structures(or tags of structures), those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
     "blacklistedStructures": []
   },
   "whitelist": {

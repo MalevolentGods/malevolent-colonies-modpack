@@ -1,0 +1,28 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "id": "oritech:basic_generator_block"
+    },
+    {
+      "count": 5,
+      "id": "oritech:fluxite"
+    }
+    ,
+    {
+      "id": "oritech:advanced_battery"
+    }
+    ,
+    {
+      "count": 2,
+      "id": "oritech:flux_gate"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "result": {
+    "id": "oritech:big_solar_panel_block"
+  },
+  "show-tooltip": true
+}

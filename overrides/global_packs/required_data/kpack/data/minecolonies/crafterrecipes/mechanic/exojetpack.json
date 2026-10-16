@@ -1,0 +1,28 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "id": "oritech:jetpack"
+    },
+    {
+      "count": 5,
+      "id": "oritech:ion_thruster"
+    }
+    ,
+    {
+      "id": "oritech:exo_chestplate"
+    }
+    ,
+    {
+      "count": 2,
+      "id": "oritech:small_tank_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "result": {
+    "id": "oritech:exo_jetpack"
+  },
+  "show-tooltip": true
+}

@@ -52,11 +52,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "champions": {
-    "enable_affix_compact": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
+  "treechop": {
+    "plugin": true,
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
   },
   "jade_access": {
     "held_item": true,
@@ -64,6 +63,9 @@
     "block": true,
     "entity": true,
     "entity_variant": true
+  },
+  "oritech": {
+    "machine_core_controller": true
   },
   "jadecolonies": {
     "colony.citizens": true,
@@ -83,14 +85,13 @@
     "block_properties": false,
     "mod_name": true
   },
+  "evolution": {
+    "jade": true
+  },
   "corpse": {
     "corpse": true
   },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "milk_jar": true,
-    "toaster": true
+  "balm": {
+    "jade": true
   }
 }
