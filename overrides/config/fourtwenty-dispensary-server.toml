@@ -1,0 +1,20 @@
+#Elapsed simulation ticks. Changes affect future deadlines; existing deadlines are preserved.
+# Default: 24000
+# Range: 1 ~ 8760000
+demandIntervalTicks = 24000
+#Elapsed simulation ticks. Changes affect future deadlines; existing deadlines are preserved.
+# Default: 24000
+# Range: 1 ~ 8760000
+demandGraceTicks = 24000
+#Elapsed simulation ticks. Changes affect future deadlines; existing deadlines are preserved.
+# Default: 24000
+# Range: 1 ~ 8760000
+healthDurationTicks = 24000
+#Native weighted happiness contribution at factor 1.1, not flat happiness points. Zero disables the bonus.
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+satisfactionWeight = 0.1
+#Native weighted happiness contribution at factor 0, not flat happiness points. Zero disables the penalty.
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+unmetDemandWeight = 0.1

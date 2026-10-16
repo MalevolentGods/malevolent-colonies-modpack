@@ -1,0 +1,23 @@
+#Distinct days of complete speeches required to join.
+# Default: 6
+# Range: 1 ~ 100
+speechesRequired = 6
+# Default: 7
+# Range: 1 ~ 365
+faithGraceDays = 7
+# Default: 7
+# Range: 1 ~ 365
+ritualIntervalDays = 7
+# Default: 8
+# Range: 1 ~ 32
+baseHearingRadius = 8
+# Default: 2
+# Range: 0 ~ 8
+hearingRadiusPerLevel = 2
+#Native happiness factor, with weight 1; not flat happiness points.
+# Default: 1.25
+# Range: 1.01 ~ 5.0
+baseHappinessFactor = 1.25
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+happinessFactorPerLevel = 0.25
